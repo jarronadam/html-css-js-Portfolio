@@ -197,7 +197,7 @@ section{
     height: 400px; 
     width: 400px;
     margin:auto 0;
-    border: 4px solid black;
+    border: 2px solid black;
     border-radius: 50%; /* optional for circular look */
     
 }
@@ -345,4 +345,10 @@ section{
     
 
 
+}
+
+/* ExPERIENCE SECTION */
+
+#experience{
+position: relative;
 }
