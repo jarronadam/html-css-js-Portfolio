@@ -37,12 +37,12 @@
     </nav>
     <section id ="profile">
         <div class="section__pic-container1">
-            <img src="./assets/1715544925193-photoaidcom-croped.jpg" alt="Jarron Douglas Profile Picture"/>
+            <img src="./assets/download.png" alt="Jarron Douglas Profile Picture"/>
         </div>
         <div class= "section__text">
             <p class="section__text__p1"> Hello, I'm</p>
             <h1 class="title"> Jarron Douglas</h1>
-            <p1 class="section__text__p2"> Software Developer</p1>
+            <p1 class="section__text__p2" id="changing-text"> Software Developer</p1>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Jarron_Douglas_Resume.pdf')"> 
                     Download CV
@@ -64,34 +64,31 @@
                 />
             </div>
         </div>
-        <img 
-        src="./assets/arrow.png" 
-        alt="Arrow icon" 
-        class="icon arrow"
-        onclick="location.href='./experience'" 
-        />
+        
     </section>
     <section id="about">
         <p class="section__text__p1">Get to know more</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
-        <div class="section__pic-container">
-            <img 
-                src="./assets/unnamed.jpg" 
-                alt="Profile Picture" 
-                class="about-pic"
-            />
-        </div>
+        
         <div class="about-details-container">
             <div class="about-containers">
-                <div class="details-container"> 
+                <div class="details-container2"> 
                     <img 
-                        src="./assets/experience.png" 
+                        src="./assets/support.png" 
                         alt="Expierence-icon" 
                         class="icon"
                     />
                     <h3>Experience</h3>
-                    <p>2+ Years <br> Frontend Development</p>
+                    <strong>IT Support Technician</strong><br>
+                        Bloomberg – Princeton, NJ<br>
+                        <em>January 2025 – March 2025</em><br><br>
+
+
+                        <strong>Full Stack Developer</strong><br>
+                        Special Narcotics Division, Manhattan District Attorney’s Office – New York, NY<br>
+                        <em>June 2024 – December 2024</em><br><br>
+
                 </div>
                 <div class="details-container">
                     <img 
@@ -100,7 +97,12 @@
                         class="icon"
                     />
                     <h3>Education</h3>
-                    <p>B.S. in Computer Science</p>
+                        <strong>B.S. in Computer Science</strong><br>
+                        The College of New Jersey, Class of 2024<br><br>
+                        During my time at TCNJ, I dove deep into all things tech — from algorithms and operating systems to building full-stack applications. 
+                        I completed coursework in computer networking, secure coding, and software engineering, while also working on meaningful 
+                        projects that allowed me to blend creativity with technical problem solving. This is where I discovered my passion 
+                        for creating clean, efficient, and user-focused software.
                 </div>
             </div>
             <div class="text-container">
@@ -111,15 +113,15 @@ I’m always looking to grow as a developer and contribute to projects that are 
             </div>
         </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
-        onclick="location.href='./experience'" />
+        <img src="./assets/free-arrow-down-icon-3101-thumb.png" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./#experience'" />
     </section>
-    <section class="experience">
+    <section id="experience">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-containers">
+                <div class="details-container">
                     <h2 class="experience-sub-title"> Frontend Developement</h2>
                     <div class="article-container">
                         <article>
@@ -140,7 +142,7 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             class="icon"
                         />
                         <div>
-                            <h3>CSS</h3> 
+                            <h3>Tailwind</h3> 
                             <p>Basic</p>
                         </div>
                         </article>
@@ -155,6 +157,16 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             <p>Basic</p>
                         </div>
                         </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience-icon" 
+                            class="icon"
+                        />
+                        <div>
+                            <h3>CSS</h3> 
+                            <p>Basic</p>
+                        </div>
                         </article>
                         <article>
                             <img 
@@ -166,7 +178,6 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             <h3>TypeScript</h3> 
                             <p>Basic</p>
                         </div>
-                        </article>
                         </article>
                         <article>
                             <img 
@@ -181,7 +192,7 @@ I’m always looking to grow as a developer and contribute to projects that are 
                         </article>
                     </div>
                 </div>
-                <div class="details-containers">
+                <div class="details-container">
                     <h2 class="experience-sub-title"> Backend Developement</h2>
                     <div class="article-container">
                         <article>
@@ -213,10 +224,9 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             class="icon"
                         />
                         <div>
-                            <h3>MySQL</h3> 
-                            <p>Intermediate</p>
+                            <h3>REST Api</h3> 
+                            <p>Experienced</p>
                         </div>
-                        </article>
                         </article>
                         <article>
                             <img 
@@ -229,6 +239,16 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             <p>Intermediate</p>
                         </div>
                         </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience-icon" 
+                            class="icon"
+                        />
+                        <div>
+                            <h3>ASP.NET Core</h3> 
+                            <p>Experienced</p>
+                        </div>
                         </article>
                         <article>
                             <img 
@@ -237,13 +257,13 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             class="icon"
                         />
                         <div>
-                            <h3>Git</h3> 
+                            <h3>Python</h3> 
                             <p>Experienced</p>
                         </div>
                         </article>
                     </div>
                 </div>
-                <div class="details-containers">
+                <div class="details-container">
                     <h2 class="experience-sub-title"> IT Support Technician</h2>
                     <div class="article-container">
                         <article>
@@ -253,7 +273,18 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             class="icon"
                         />
                         <div>
-                            <h3>Azure</h3> 
+                            <h3>Microsoft Intune</h3> 
+                            <p>Experienced</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience-icon" 
+                            class="icon"
+                        />
+                        <div>
+                            <h3>Remote Desktop Protocol</h3> 
                             <p>Experienced</p>
                         </div>
                         </article>
@@ -275,7 +306,7 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             class="icon"
                         />
                         <div>
-                            <h3>Bloomberg Terminal</h3> 
+                            <h3>Nmap</h3> 
                             <p>Basic</p>
                         </div>
                         </article>
@@ -287,8 +318,8 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             class="icon"
                         />
                         <div>
-                            <h3>Customer Service</h3> 
-                            <p>Experienced</p>
+                            <h3>Wireshark</h3> 
+                            <p>Basic</p>
                         </div>
                         </article>
                         </article>
@@ -299,7 +330,7 @@ I’m always looking to grow as a developer and contribute to projects that are 
                             class="icon"
                         />
                         <div>
-                            <h3>Troubleshooting</h3> 
+                            <h3>Microsoft Azure</h3> 
                             <p>Experienced</p>
                         </div>
                         </article>
@@ -308,12 +339,120 @@ I’m always looking to grow as a developer and contribute to projects that are 
             </div>
         </div>
         <img 
-            src="./assets/arrow.png" 
+            src="./assets/free-arrow-down-icon-3101-thumb.png" 
             alt="Arrow Icon" 
             class="icon arrow"
             onclick="location.href='./#projects'" 
         />
     </section>
+    <section id="projects"
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container1 color-container">
+                    <div class="article-container color-container">
+                        <img 
+                            src="./assets/opengraph.png" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Interest-Based Allocator</h2>
+                    <div class="btn-container">
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/jarronadam/Interest-Allocator'"
+                            > 
+                            Github
+                            </button>          
+                    </div>
+                </div>
+                <div class="details-container1 color-container">
+                    <div class="article-container color-container">
+                        <img 
+                            src="./assets/327982324-092f7265-bcfe-4d6c-af68-9a9405e0daa4.png" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">GoatGrowth Tracker</h2>
+                    <div class="btn-container">
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/jarronadam/GoatApplication'"
+                            > 
+                            Github
+                            </button>          
+                    </div>
+                </div>
+                <div class="details-container1 color-container">
+                    <div class="article-container color-container">
+                        <img 
+                            src="./assets/c26a58af112f4cad08629893409f32c5.jpg" 
+                            alt="project-1" 
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">PyCamGuard</h2>
+                    <div class="btn-container">
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/jarronadam/SecurityCam'"
+                            > 
+                            Github
+                            </button>          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+            src="./assets/free-arrow-down-icon-3101-thumb.png" 
+            alt="Arrow Icon" 
+            class="icon arrow"
+            onclick="location.href='./#contact'" 
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                <img 
+                    src="./assets/email.png" 
+                    alt="Email icon" 
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:jarrondouglas@gmail.com">Example@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                    src="./assets/linkedin.png" 
+                    alt="LinkedIn icon" 
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/jarron-douglas-7665571ab/'">linkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Jarron Douglas. All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
+    <video autoplay muted loop id="background-video">
+        <source src="./assets/30356-380729027.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
 </body>
 </html>
