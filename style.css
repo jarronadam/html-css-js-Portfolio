@@ -23,7 +23,7 @@ body {
     min-height: 100%;
     z-index: -1;
     object-fit: cover;
-    opacity: 0.3; /* Optional: tone it down a bit */
+    opacity: 0.4; /* Optional: tone it down a bit */
     
 }
 
