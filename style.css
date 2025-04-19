@@ -218,7 +218,7 @@ section{
     margin:auto 0;
     border-radius: 50%; /* optional for circular look */
     box-shadow:
-    0 0 8px rgb(114, 114, 114); 
+    0 0 8px rgb(100, 100, 100); 
     transition: transform 0.5s ease-in-out;
 }
 
@@ -468,11 +468,13 @@ article .icon{
   
 }
 
-.project-img{
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+.project-img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 
 .project-title{
     margin: 1rem;

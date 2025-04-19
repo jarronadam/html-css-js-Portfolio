@@ -8,10 +8,10 @@ function toggleMenu() {
 
 const titles = [
     "Software Developer",
-    "IT Technician",
-    "Full-Stack Engineer",
-    "Web Developer",
-    "Problem Solver"
+    "Front-End Developer",
+    "Back-End Developer",
+    "IT Support Specialist",
+    "Computer Scientist"
   ];
 
   let index = 0;
